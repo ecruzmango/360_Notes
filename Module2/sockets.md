@@ -14,4 +14,5 @@
 
 
 ## SOCKETS
-Include **headerfile** you’ll have about ==20-22== cookies from this recipe!
+Include **headerfile** `<sys/socket.h>` and **headerfile** `<netinet/in.h>`
+**note:** returns a file descriptor of the socket on success and -1 on error
