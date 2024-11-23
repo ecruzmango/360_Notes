@@ -14,4 +14,4 @@
 
 
 ## SOCKETS
-Include **headerfile** ==sys/socket.h== and 
+Include **headerfile** ==sys/socket.h==. and 
