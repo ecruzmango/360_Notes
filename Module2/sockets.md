@@ -16,3 +16,18 @@
 ## SOCKETS
 Include **headerfile** `<sys/socket.h>` and **headerfile** `<netinet/in.h>`
 **note:** returns a file descriptor of the socket on success and -1 on error
+**int sockect(int family, int type, int protocol)**
+
+**FAMILY:**: (AF = address family)
+AF_UNIX = creates a UNIX SOCKET (a named pipe) || Think of it as passing notes between rooms in your house through a tube system || it's fast bc its local
+AF_INET = internet protocol version 4 (IPv4) || traditional address
+AF_INET6 = internet protocal version 6 (IPv6) ||  Much more address space available
+**TYPES:**
+SOCK_DGRAM - a datagram, (a bunch of bytes)
+SOCK_STREAM - a connection stream between the client/server (like TCP)
+SOCK_RAW - raw sockets (you will fill everything), requires a superuser
+**PROTOCOL:**
+
+
+### NETWORK BYTE ORDER
+   
