@@ -14,7 +14,9 @@
 
 
 ## SOCKETS
-Include **headerfile** `<sys/socket.h>` and **headerfile** `<netinet/in.h>`
+> [!IMPORTANT]
+> Include **headerfile** `<sys/socket.h>` and **headerfile** `<netinet/in.h>`
+
 **note:** returns a file descriptor of the socket on success and -1 on error
 **int sockect(int family, int type, int protocol)**
 
@@ -39,4 +41,19 @@ SOCK_RAW - raw sockets (you will fill everything), requires a superuser
 
 
 ## NETWORK BYTE ORDER
-   
+> [!IMPORTANT]
+> implement `<arpa/inet.h>` for Helper functions
+
+- Networks use big-endian to send/recieve data
+- addresses and ports must be in big-endian
+
+#### what is the Big Endian?
+big endian with a simple analogy:
+Imagine writing numbers in different cultures:
+ * Western way (Little Endian): 123 is read left to right
+ * Some other way (Big Endian): 123 would be read right to left
+Think of it like an international standard for writing addresses on envelopes:
+ * Everyone agrees to write addresses in the same format
+ * This way, no matter where the letter comes from, everyone can read it
+
+## CLIENT
