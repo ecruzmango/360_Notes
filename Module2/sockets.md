@@ -18,7 +18,8 @@ Include **headerfile** `<sys/socket.h>` and **headerfile** `<netinet/in.h>`
 **note:** returns a file descriptor of the socket on success and -1 on error
 **int sockect(int family, int type, int protocol)**
 
-**FAMILY:**: (AF = address family)
+**FAMILY:** (AF = address family)
+
 AF_UNIX = creates a UNIX SOCKET (a named pipe) 
 - Think of it as passing notes between rooms in your house through a tube system 
 AF_INET = internet protocol version 4 (IPv4)
