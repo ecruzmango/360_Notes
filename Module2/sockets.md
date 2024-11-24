@@ -25,10 +25,12 @@ AF_INET = internet protocol version 4 (IPv4)
 - traditional address
 AF_INET6 = internet protocal version 6 (IPv6)
 - Much more address space available
+  
 **TYPES:**
 SOCK_DGRAM - a datagram, (a bunch of bytes)
 SOCK_STREAM - a connection stream between the client/server (like TCP)
 SOCK_RAW - raw sockets (you will fill everything), requires a superuser
+
 **PROTOCOL:**
 
 
