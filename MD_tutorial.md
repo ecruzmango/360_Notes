@@ -1,5 +1,5 @@
 > [!NOTE]
-> CLICK ON PREVIEW TO SEE THE CODE
+> CLICK ON CODE TO SEE THE CODE
 
 > [!IMPORTANT]
 > This creates a purple background
